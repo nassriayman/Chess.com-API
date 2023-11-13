@@ -25,7 +25,7 @@ def fetch_chess_data(username):
 
         monthly_games = archive_response.json().get('games', [])
         for game in monthly_games:
-            # Filter out non-rapid games
+            # I used this to filter out non-rapid games as I'm a rapid player feel free to delete it or modify it to your preference.
             if game['time_class'] != 'rapid':
                 continue
 
