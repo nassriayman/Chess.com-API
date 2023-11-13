@@ -1,4 +1,4 @@
-def scrap_chess_data(username):
+def fetch_chess_data(username):
     # Headers to mimic a browser visit
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
