@@ -1,7 +1,7 @@
 # Chess.com-API
 
 ## Overview
-The Chess.com-API project is a Python-based tool designed to fetch and analyze chess game data from the [Chess.com API](https://www.chess.com/news/view/published-data-api). This project is particularly useful for data scientists and chess enthusiasts interested in analyzing their own games or general chess game trends. The script retrieves various game details such as opponent's rating, game datetime, number of moves, color of your pieces, and game results, and saves them into a CSV file for further analysis.
+The Chess.com-API project is a Python-based tool designed to fetch and analyze your chess games data from the [Chess.com API](https://www.chess.com/news/view/published-data-api). This project is particularly useful for data scientists and chess enthusiasts interested in analyzing their own games or general chess game trends. The script retrieves various game details such as opponent's rating, game datetime, number of moves, color of your pieces, and game results, and saves them into a CSV file for further analysis.
 
 ## Files in the Repository
 - `main.py`: The main program that orchestrates the data fetching process.
